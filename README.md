@@ -40,7 +40,7 @@ centos 7环境下
 缺少pip环境
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 使用python get-pip.py 
-系统环境中缺失，请先安装以下
+系统环境中缺失，请先安装以下：
 yum install python-devel
 yum install postgresql-devel
 yum install postgresql-libs
