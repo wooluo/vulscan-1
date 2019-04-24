@@ -41,12 +41,11 @@ centos 7环境下
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 使用python get-pip.py 
 系统环境中缺失，请先安装以下：
-yum install python-devel
-yum install postgresql-devel
-yum install postgresql-libs
+yum install python-devel postgresql-devel postgresql-libs
 
 **安装命令：pip install -r requirements.txt**
 国内使用豆瓣源会快很多
+
 pip install -r requirements.txt  -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 
 （打包命令：pip freeze> requirements.txt //如果开发POC需要新的依赖库，在这里记录，尽可能的不使用依赖库减少依赖）
